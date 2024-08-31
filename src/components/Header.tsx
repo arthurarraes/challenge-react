@@ -14,7 +14,7 @@ export default function Header(){
                 <ul>
                     <a href=""><Link to='/'>Home</Link></a>
                     <a href=""><Link to='/SobreNos'>Sobre Nós</Link></a>
-                    <a href=""><Link smooth to='/.ajuda'>Ajuda</Link></a>
+                    <a href=""><Link smooth to='/#ajuda'>Ajuda</Link></a>
                 </ul>
             </nav>
             <div>

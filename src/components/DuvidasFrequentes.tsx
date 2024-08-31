@@ -41,7 +41,7 @@
         };
 
         return(
-            <section className={styles.ajuda}>
+            <section id="ajuda" className={styles.ajuda}>
             <header>Dúvidas Frequentes</header>
             {duvidasFrequentes.map((i, index) => (
                 <div className={styles.duvidasFrequentes} key={index}>
