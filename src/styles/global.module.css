@@ -12,6 +12,22 @@
     --grey : #4E4E4E
 }
 
+.registrar{
+    padding: 10px 12px; 
+    background-color: var(--grey);
+}
+.registrar a{
+    color: white;
+}
+
+.login{
+    padding: 10px 23px;
+    background-color: white;
+}
+.login a{
+    color: var(--grey);
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px){
     header{
         font-size: 28px !important;
