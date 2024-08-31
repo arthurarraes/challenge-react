@@ -1,0 +1,52 @@
+.cabecalho{
+    background-color: var(--light-blue);
+    display: flex;
+    padding: 15px 15px 15px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    font-family: "Sora", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.botoes{
+    border-radius: 5px;
+    border: 0;
+    margin: 4px;
+}
+.botoes a{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+}
+
+.registrar{
+    padding: 10px 12px; 
+    background-color: var(--grey);
+}
+.registrar a{
+    color: white;
+}
+
+.login{
+    padding: 10px 23px;
+    background-color: white;
+}
+.login a{
+    color: var(--grey);
+}
