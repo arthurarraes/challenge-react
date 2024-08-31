@@ -9,7 +9,7 @@ export default function Home(){
         <main>
             <section className={styles.banner}>
                 <section className={styles.texto}>
-                    <header>Djdkakdahdjkahro.</header>
+                    <header>Descubra em poucos passos, o problema do seu carro.</header>
                     <p>Com a nova IA você descobrirá em qualquer lugar, o defeito do seu veículo.</p>
                     <button className={`${styles.consulte} ${styles.botoes}`}>Consulte Agora</button>
                 </section>
