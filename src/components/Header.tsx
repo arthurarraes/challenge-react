@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "../styles/Header.module.css"
+import styles from "../styles/header.module.css"
 import "../styles/global.module.css"
+import { HashLink as Link } from 'react-router-hash-link';
 
 import logo from "../assets/logo.svg"
 
@@ -14,7 +14,7 @@ export default function Header(){
                 <ul>
                     <a href=""><Link to='/'>Home</Link></a>
                     <a href=""><Link to='/SobreNos'>Sobre Nós</Link></a>
-                    <a href=""><Link to='/#ajuda'>Ajuda</Link></a>
+                    <a href=""><Link smooth to='/.ajuda'>Ajuda</Link></a>
                 </ul>
             </nav>
             <div>

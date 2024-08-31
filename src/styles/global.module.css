@@ -9,3 +9,14 @@
     --light-blue : #D7E0F5;
     --grey : #4E4E4E
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header{
+        font-size: 28px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    header{
+        font-size: 22px !important;
+    }
+}

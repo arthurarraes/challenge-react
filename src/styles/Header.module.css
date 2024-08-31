@@ -50,3 +50,23 @@ nav ul a{
 .login a{
     color: var(--grey);
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header{
+        font-size: 28px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    header{
+        font-size: 22px !important;
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        padding: 8px 8px 8px 0px;
+    }
+    .cabecalho figure img{
+        width: 80%;
+    }
+}
