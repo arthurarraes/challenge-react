@@ -9,6 +9,7 @@ import Register from './routes/Register/index.tsx'
 import SobreNos from './routes/SobreNos/index.tsx'
 import Error from './routes/Error/index.tsx'
 import AppSemHeaderFooter from './AppSemHeaderFooter.tsx'
+import Conta from "./routes/Conta/index.tsx"
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/sobreNos',
         element: <SobreNos />
+      },
+      {
+        path: '/conta',
+        element: <Conta/>
       }
     ]
   },

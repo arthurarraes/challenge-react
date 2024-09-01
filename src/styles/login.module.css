@@ -1,29 +1,34 @@
 .corpo{
     background-color: var(--blue);
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
-.main{
+.bloco{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 10% 30%;
     background-color: white;
     border-radius: 10px;
     padding: 30px;
+    margin: 20px;
+    width: 40%;
 }
-form{
+.login{
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-form input{
+.login input{
     margin: 5px;
     width: 80%;
     padding: 10px;
     border-radius: 10px;
     font-family: "Sora", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     border: 1px solid rgb(216, 215, 215);
 }
 .registrar{
@@ -32,7 +37,24 @@ form input{
     font-size: 16px;
     color: white;
     width: 100%;
+    width: 100% !important;
 }
+
+.erro {
+    background-color: #fdd; /* Fundo vermelho claro */
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+.erroMensagem {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+}
+
+
 
 a{
     text-decoration: none;
@@ -44,4 +66,26 @@ a{
 }
 span{
     color: var(--blue);
+}
+
+@media screen and (max-width: 767px){
+   .bloco{
+    width: 70%;
+    height: 60%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   .login{
+    margin: 20px 0;
+   }
+   .login input{
+    font-size: 12px;
+   }
+   .registrar{
+    font-size: 14px;
+   }
+   a{
+    font-size: 14px;
+   }
 }
