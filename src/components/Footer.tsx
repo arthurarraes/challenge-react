@@ -1,4 +1,4 @@
-import "../styles/footer.module.css"
+import "../styles/footer.css"
 import logo from "../assets/logo.svg"
 
 export default function Footer(){
