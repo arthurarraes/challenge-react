@@ -1,5 +1,4 @@
 import styles from "../../styles/home.module.css"
-import "../../styles/global.module.css"
 import banner from "../../assets/banner.svg"
 import ProblemasComuns from "../../components/ProblemasComuns"
 import DuvidasFrequentes from "../../components/DuvidasFrequentes"
