@@ -1,5 +1,4 @@
 import "../styles/footer.module.css"
-import "../styles/global.module.css"
 
 import logo from "../assets/logo.svg"
 
