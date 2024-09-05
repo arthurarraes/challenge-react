@@ -1,5 +1,4 @@
     import styles from "../styles/duvidasFrequentes.module.css"
-    import "../styles/global.module.css"
     import arrow  from '../assets/arrow-down.svg'
 
 
