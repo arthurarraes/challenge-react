@@ -1,5 +1,4 @@
 import styles from '../../styles/conta.module.css';
-import '../../styles/global.module.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Conta() {
