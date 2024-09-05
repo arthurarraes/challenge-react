@@ -1,5 +1,4 @@
 import styles from "../styles/header.module.css"
-import "../styles/global.module.css"
 import { HashLink as Link } from 'react-router-hash-link';
 import conta from "../assets/user.svg"
 
