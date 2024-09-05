@@ -77,10 +77,10 @@
     .participante a img{
         width: 20px;
     }
-    .sobre-projeto p{
+    .sobreProjeto p{
         font-size: 16px;
        }
-    .sobre-projeto figure img{
+    .sobreProjeto figure img{
         width: 80vw;
     }
 }
