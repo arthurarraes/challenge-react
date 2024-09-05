@@ -1,5 +1,4 @@
 import styles from "../styles/problemasComuns.module.css"
-import "../styles/global.module.css"
 
 
 export default function ProblemasComuns(){
