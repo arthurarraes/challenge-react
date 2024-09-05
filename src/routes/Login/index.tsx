@@ -40,7 +40,7 @@ export default function Login() {
                     <input type="submit" value="Login" className={styles.registrar} />
                 </form>
                 <Link smooth to='/register'>
-                    <p>Você não possui uma conta? <span>Registrar</span></p>
+                    <p className={styles.entrar}>Você não possui uma conta? <span>Registrar</span></p>
                 </Link>
             </section>
         </main>
