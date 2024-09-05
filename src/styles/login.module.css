@@ -69,9 +69,11 @@ span{
 }
 
 @media screen and (max-width: 767px){
+    header{
+        margin-top: 10px;
+    }
    .bloco{
     width: 70%;
-    height: 60%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -84,6 +86,10 @@ span{
    }
    .registrar{
     font-size: 14px;
+    width: 80% !important;
+   }
+    .entrar{
+    margin-bottom: 20px !important;
    }
    a{
     font-size: 14px;
