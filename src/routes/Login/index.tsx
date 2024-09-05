@@ -1,6 +1,5 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import styles from '../../styles/login.module.css';
-import '../../styles/global.module.css';
 
 export default function Login() {
     function handleLogin(event: Event) {
