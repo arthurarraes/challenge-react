@@ -1,5 +1,4 @@
 import styles from "../../styles/sobreNos.module.css"
-import "../../styles/global.module.css"
 
 import arthur from "../../assets/arthur.svg"
 import willian from "../../assets/willian.svg"
