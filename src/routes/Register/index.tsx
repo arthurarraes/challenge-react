@@ -42,7 +42,7 @@ export default function Register() {
                     <input type="submit" value="Registrar" className={styles.registrar} />
                 </form>
                 <Link smooth to='/login'>
-                    <p>Você já possui uma conta? <span>Entrar</span></p>
+                    <p className={styles.entrar}>Você já possui uma conta? <span>Entrar</span></p>
                 </Link>
             </section>
         </div>
